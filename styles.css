@@ -1,0 +1,61 @@
+header > h1 {
+    margin: 0;
+    background-color: rgb(44, 128, 238);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+
+header {
+    margin: 0;
+    background-color: rgb(44, 128, 238);
+}
+
+header > nav {
+    color: white;
+    height: 100px;
+}
+
+header > nav >ul >li >a {
+    color: white;
+}
+
+header > nav > ul {
+    list-style: none;
+}
+
+article  {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+div {
+    text-align: right;
+}
+
+#CodeClan {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(44, 128, 238);
+    color: white;
+    padding: 5px;
+}
+
+@keyframes spin {
+    from {
+      transform:rotate(0deg);
+    }
+    to {
+      transform:rotate(360deg);
+    }
+  }
+
+.button:hover {
+    background-color: #f1f1f1;
+    color: #ee8a14;
+    font-size: 1.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    animation: spin 1s linear infinite;
